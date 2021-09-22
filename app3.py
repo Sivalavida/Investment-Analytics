@@ -4,9 +4,9 @@ import pandas as pd
 
 print('start')
 
-st.title('Invest Dashboard')
+st.title('Invest Dashboard v2')
 
-tickers = ('TSLA', 'AAPL', 'MSFT', 'BTC-USD')
+tickers = ('TSLA', 'AAPL', 'MSFT', 'BTC-USD' )
 
 dropdown = st.multiselect('Pick Asset : ', tickers)
 
